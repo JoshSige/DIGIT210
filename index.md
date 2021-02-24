@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/JoshSige/DIGIT210/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JoshSige/DIGIT210/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#PROJECT" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROJECT</a>
+    <a href="#ABOUT" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="#CONTACT" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+   </div>
+    <!--This page is published at https://newtfire.github.io/textEncoding-Hub/copy-and-rename-to-docs/ -->
+    <body>
+        <h1>JOSH'S CODE SITE</h1>
+        <h2>A SECOND HEADING</h2>
+        <h3>HOW ABOUT 3?</h3>
+        <p>Welcome to my site.</p>
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goalcast.com%2F2018%2F05%2F11%2F20-marcus-aurelius-quotes%2F&psig=AOvVaw1HBiQXC-NvffflghU7eBAy&ust=1614273214220000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJCxv8SCg-8CFQAAAAAdAAAAABAD" alt=/>
+        <!-- PART 2-->
+        <h1> Books I like </h1>
+        <ol>
+            <li>"Meditations" - Marcus Aurelius</li>
+            <li>"Don Quijote" - Miguel de Cervantes Saavedra</li>
+            <li>"Maps Of Meaning: The Architecture of Belief" - Jordan Peterson</li>
+            <li>"Pimp: The Story of My life" - Iceberg Slim</li>
+            <li>"On Killing" - Dave Grossman </li>
+        
+        <p>We are at <a href="https://behrend.psu.edu/">Penn State Erie, The Behrend College</a>.</p>
+        <!--ebb: The <a> element above is showing how to make an *absolute* file association with a literal, full website address. 
+            Only do this for pointing OUTSIDE your own repo. -->
+        
+        <p>Here is a link to the Code View of <a href="https://github.com/newtfire/textAnalysis-Hub">our textAnalysis-Hub repository</a>. We’ll even link that to the GitHub octokitty image (named "Octocat"):</p>
+        <a href="https://github.com/newtfire/textAnalysis-Hub"><img src="images/octocat.png" alt="GitHub's octocat logo linking back to the code view of our class GitHub repo."/></a>
+    </body>
+</html>
