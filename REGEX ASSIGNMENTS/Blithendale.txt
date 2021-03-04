@@ -1,0 +1,10 @@
+1. as per usual, i removed the gugtenberg text from the beginning of the text
+2. my first actual step will be ackling the roman numerals using a command from the previous regex2 assignment
+	- Find: ..([IVXCL]+)
+	- I switched the spaces accordingly
+3. I spaced each line like this:
+	- Find: ^[A-Z]
+	- Replace: \n\n
+4. I am finding each individual text block:
+	- Find: (^.+?)(\n{1})
+	- Replace: <paragraph></paragraph>

@@ -1,0 +1,6 @@
+1. I started by opening the exide interface and going into the shakespeare database, 
+this is where I began to tumble downhill (I know I just started)
+2. I attempted to start with my commands but i think i have some sort of fundamental misunderstanding of how to actually operate in the database.
+3. I placed the command that I believe should allow me to work in the collectiuon database, however whenever I went to make a query nothing happened. 
+4. After watching through the class recording a few times I am still lost. Hopefully I can get cleared up on this today and have a sensible submission.
+5. I have attached photos of what I was doing to my submission on canvas.  

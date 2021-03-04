@@ -1,0 +1,7 @@
+1. First is the usual move where I replace &, <, and >. Also, &amp, &lt, &gt respectivly.
+2. Next im gonna capture paragraphs with: 
+	- Find: (^.+?)(\n{2})
+	- Replace: <sp>\1</sp>\2 
+3. Stage direction capture and replace
+	- Find: \[(.+?)\]
+	- Replace: <sd>\1</sd>
